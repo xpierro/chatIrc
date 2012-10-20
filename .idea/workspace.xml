@@ -15,96 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="c8406db8-0ef1-4fc7-91ed-5ea20f6235c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keystore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/plugin/plugin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/test.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/chatIrc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/pierre.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_plugin_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chatIrc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chatirc.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chatirc.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/ChannelListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/EngineListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/IRCSpaceController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/ServerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/ServerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/SpaceAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/controller/SpaceListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/engine/Core.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/engine/InputThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/error/ExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/font/FontFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/image/ImageFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/javascript/JSTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/ChannelsTableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/HelpTableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/ChannelMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/IRCColor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/IRCStringConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/IRCTag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/ModeSwitch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/ServerMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/io/ClientMessageCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/io/ClientProtocolAbstraction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/io/ICTCPAnswer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/io/ICTCPRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/io/ServerMessageCodes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/protocol/io/ServerProtocolAbstraction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/space/AbstractIRCSpaceModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/space/ChannelModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/space/IRCSpaceModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/space/PrivateMessageModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/space/ServerModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/space/UsersListModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/text/ExtendedHTMLDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/text/ExtendedStyledDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/text/MessageInjecter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/model/text/MultiColumnDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/sound/SoundLibrary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/tools/properties/ExceptionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/tools/properties/GestionnaireFichiers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/tools/properties/GestionnaireProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/tools/properties/PropertieBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/ChannelsTableView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/HelpView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/IRCApplet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/AbstractIRCSpaceView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/ChannelView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/IRCSpaceView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/PrivateMessageView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/ServerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/SpaceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/TabbedSpaceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/components/BackgroundTextPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/components/InputPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/components/RoundInputField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/components/RoundScrollPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/components/TabComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/util/ColorMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/space/util/UsersListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/text/MultiColumnBoxView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/text/MultiColumnTextPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/text/MultiColumnViewFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/util/HTMLListCellRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/view/util/HTMLTableCellRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/chat.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/javascript/JSTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/javascript/JSTest.java" />
     </list>
     <ignored path="$USER_HOME$/.grails/" />
     <ignored path="$USER_HOME$/.griffon/" />
@@ -190,7 +102,7 @@
       <file leaf-file-name="JSTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/javascript/JSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="455" selection-end="455" vertical-scroll-proportion="0.51369864">
+            <state line="13" column="62" selection-start="431" selection-end="431" vertical-scroll-proportion="0.41095892">
               <folding />
             </state>
           </provider>
@@ -910,7 +822,11 @@
       <created>1276954180246</created>
       <updated>1277808580735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First import">
+      <created>1350768342473</created>
+      <updated>1350768342473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <option name="trackContextForNewChangelist" value="false" />
     <servers />
   </component>
@@ -1162,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fantasme/chatirc/javascript/JSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="455" selection-end="455" vertical-scroll-proportion="0.51369864">
+        <state line="13" column="62" selection-start="431" selection-end="431" vertical-scroll-proportion="0.41095892">
           <folding />
         </state>
       </provider>

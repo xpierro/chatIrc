@@ -11,6 +11,6 @@ public class JSTest {
     public static void displayTestDiv() {
         JSObject jso = JSObject.getWindow(IRCApplet.getLastInstance());
         jso.eval("alert('ok')");
-        jso.eval("$('#conteneur').append('<div>YOUHOUU<div>');alert('ok2')");
+        jso.eval("$('#conteneur').append('<div>YOUHOUU<div>');");
     }
 }
