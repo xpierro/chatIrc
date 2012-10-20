@@ -1,0 +1,22 @@
+.icon-32 { height:32px; width:32px}
+.icon-24 { height:24px; width:24px}
+
+.icon-arrow-up { background-image: url(arrow-up.gif) !important; background-repeat: no-repeat; }
+.icon-arrow-down { background-image: url(arrow-down.gif) !important; background-repeat: no-repeat; }
+.icon-save { background-image: url(save.gif) !important; background-repeat: no-repeat; }
+
+.silk-accept { background-image: url(fam/accept.png) !important; background-repeat: no-repeat; }
+.silk-add { background-image: url(fam/add.gif) !important; background-repeat: no-repeat; }
+.silk-book { background-image: url(fam/book.png) !important; background-repeat: no-repeat; }
+.silk-cog { background-image: url(fam/cog.png) !important; background-repeat: no-repeat; }
+.silk-cog { background-image: url(fam/cog.png) !important; background-repeat: no-repeat; }
+.silk-delete { background-image: url(fam/delete.gif) !important; background-repeat: no-repeat; }
+.silk-error { background-image: url(fam/error.png) !important; background-repeat: no-repeat; }
+.silk-grid { background-image: url(fam/grid.png) !important; background-repeat: no-repeat; }
+.silk-information { background-image: url(fam/information.png) !important; background-repeat: no-repeat; }
+.silk-table-refresh { background-image: url(fam/table_refresh.png) !important; background-repeat: no-repeat; }
+.silk-user { background-image: url(fam/user.png) !important; background-repeat: no-repeat; }
+.silk-user-add { background-image: url(fam/user_add.gif) !important; background-repeat: no-repeat; }
+.silk-user-comment { background-image: url(fam/user_comment.png) !important; background-repeat: no-repeat; }
+.silk-user-delete { background-image: url(fam/user_delete.png) !important; background-repeat: no-repeat; }
+.silk-user-edit { background-image: url(fam/user_edit.png) !important; background-repeat: no-repeat; }
