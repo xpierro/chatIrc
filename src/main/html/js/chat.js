@@ -1,9 +1,50 @@
+/*
+ * Classe principale de la fenetre de chat
+ * Cette classe devrait posséder certaines fonctions permettant de mettre à jour la fenetre de chat
+ * Idées:
+ *   - Des tabs pour les différents canaux
+ *   - Des fonctions de mises à jour du texte des textArea et des listes de pseudos
+ *   - Des fonctions pour communiquer avec l'applet et lui signaler les entrées utilisateur
+ */
+var MainWindow = function() {
+    var mainWindow = null;
+    if (typeof MainWindow.initialized == "undefined") {
+        MainWindow.initialized = true;
+
+        MainWindow.prototype.init = function() {
+            mainWindow = new Ext.Window({
+                id: 'mainWindow',
+                title: 'Yet Anoter IRC Client - JS',
+                width: 600,
+                height: 480,
+                x: 0,
+                y: 0,
+                layout: 'fit',
+                items: [
+                    {
+                        id: 'mainText',
+                        xtype: 'panel'
+                    }
+                ]
+            });
+            mainWindow.show();
+        };
+        this.init();
+
+
+        MainWindow.prototype.appendText = function(text) {
+            $('#mainText').html("<div>" + text + "</div>");
+        };
+    }
+};
 
 var fenetreIrc = new Ext.Window({
 	id: 'chatIrcWindow',
 	title: 'Fantasme IRC Client',
-	width: 800,
-	height: 600,
+	width: 600,
+	height: 480,
+    x: 250,
+    y: 250,
 	layout: 'fit',
 	items: [
 	    {
@@ -34,16 +75,22 @@ var fenetreIrc = new Ext.Window({
 	]
 });
 
+var mainWindow2 = null;
+
+var testAppend = function(text) {
+    mainWindow2.appendText(text);
+};
+
 Ext.onReady(function() {
+    mainWindow2 = new MainWindow();
 	fenetreIrc.show();
-         Ext.get("ircApplet").setVisible(true);
+    Ext.get("ircApplet").setVisible(true);
 
-fenetreIrc.on('close', function() {
-	// Ferme l'applet (ne peut pas fermer la JVM)
+    fenetreIrc.on('close', function() {
+        // Ferme l'applet (ne peut pas fermer la JVM)
         document.ircApplet.jsQuit();
-});
+    });
 
-    //fenetreIrc.update(undefined);
 });
 
 

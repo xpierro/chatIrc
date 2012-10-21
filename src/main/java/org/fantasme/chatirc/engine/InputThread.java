@@ -9,6 +9,7 @@ import java.nio.charset.Charset;
 import javax.swing.SwingUtilities;
 import javax.swing.event.EventListenerList;
 import org.fantasme.chatirc.controller.EngineListener;
+import org.fantasme.chatirc.javascript.JSTest;
 
 /**
  * Thread d'écoute des messages du serveur.
@@ -83,6 +84,8 @@ public class InputThread extends Thread {
                     }
                 }
                 final String finalMessage = message;
+                //TODO: supprimer car test
+                JSTest.displayTestDiv(finalMessage);
                 System.out.println(finalMessage);
                 SwingUtilities.invokeLater(new Runnable() {
                     public void run() {

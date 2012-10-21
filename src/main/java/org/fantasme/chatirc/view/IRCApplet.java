@@ -254,7 +254,7 @@ public class IRCApplet extends JApplet {
     }
 
     public void testJS() {
-        JSTest.displayTestDiv();
+        JSTest.displayTestDiv("premiere ecriture");
     }
 
     /**

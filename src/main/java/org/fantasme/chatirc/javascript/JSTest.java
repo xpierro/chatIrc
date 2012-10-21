@@ -8,9 +8,9 @@ import org.fantasme.chatirc.view.IRCApplet;
  * @author PierreCollignon@TRINOV
  */
 public class JSTest {
-    public static void displayTestDiv() {
+    public static void displayTestDiv(String text) {
         JSObject jso = JSObject.getWindow(IRCApplet.getLastInstance());
-        jso.eval("alert('ok')");
-        jso.eval("$('#conteneur').append('<div>YOUHOUU<div>');");
+        jso.eval("testAppend('" + text + "')");
+        //jso.eval("alert('testAppend')");
     }
 }
